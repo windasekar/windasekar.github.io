@@ -1,0 +1,92 @@
+body {
+    font: 16px/20px times new roman;
+    background-image: url(floor-tile.png);
+    color: rgb(150, 103, 1);
+}
+.container {
+    width: 900px;
+    margin: auto;
+    background-color: rgb(255, 255, 255);
+	padding: 20px;
+}
+.header {
+	box-sizing: border-box;
+}
+.header img {
+	padding-right: 20px;
+	display : block;
+    border-bottom: 5px solid black;
+    box-sizing: border-box;
+}
+.header h1 {
+	background-color: black;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 20px;
+	margin-bottom: 0%;
+}
+.content {
+	padding-right: 20px;
+    padding-left: 20px;
+    box-sizing: border-box;
+    text-align: justify;
+	border: 1px solid rgb(150, 103, 1);
+	background-color: rgb(150, 103, 1);
+	color: black;
+    margin-bottom: 0%;
+}
+.keahlian {
+    box-sizing: border-box;
+    background-color: black;
+    height: 400px;
+}
+.keahlian h2 {
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 0%;
+    margin-top: 0%;
+    border-bottom: 5px solid rgb(150, 103, 1);
+
+}
+.soft {
+	width: 565px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-left: 200px;
+    box-sizing: border-box;
+    float: left;
+    text-align: justify;
+}
+.hard {
+	text-align: left;
+    padding-left: 20px;
+	padding-top: 10px;
+	padding-bottom: 20px;
+    box-sizing: border-box;
+	display: inline-block;
+}
+.pk {
+    box-sizing: border-box;
+    background-color: rgb(150, 103, 1);
+    height: 200px;
+}
+.pendidikan {
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    box-sizing: border-box;
+    float: left;
+    text-align: justify;
+    color: black;
+}
+.contact {
+    background-color: black;
+    float: right;
+    width: 300px;
+    margin-top: 104px;
+    padding-left: 20px;
+    text-align: center;
+    clip-path: polygon(20% 0%, 100% 0%, 100% 100%, 0% 100%);
+}

@@ -54,21 +54,16 @@ body {
 	display: inline-block;
 	background-color: black;
 }
-.blank {
-	color:rgb(255, 255, 255);
-	width: 350px;
-    padding: 20px;
-    box-sizing: border-box;
-    float: left;
-    text-align: justify;
+.experience {
+	height: 250px;
 }
 .work {
 	text-align: left;
+	float: right;
     padding-left: 20px;
 	padding-top: 20px;
 	padding-bottom: 20px;
     box-sizing: border-box;
-	display: inline-block;
 	background-color: black;
 }
 .project {
