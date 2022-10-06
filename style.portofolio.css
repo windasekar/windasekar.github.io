@@ -18,6 +18,25 @@ body {
     border-bottom: 5px solid black;
     box-sizing: border-box;
 }
+/* smartphone */
+.header > img{
+	width: 100%;
+	height: auto;
+}
+/* tablet */
+@media (min-width: 576px){
+	.header > img {
+		width: 80%;
+		height: auto;
+	}
+}
+ /* PC */
+@media (min-width: 992px){
+	.header > img {
+		width: 50%;
+		height: auto;
+	}
+}
 .header h1 {
 	background-color: black;
 	padding-top: 20px;
