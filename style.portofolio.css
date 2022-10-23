@@ -1,6 +1,5 @@
 body {
     font: 16px/20px times new roman;
-    background-image: url(floor-tile.png);
     color: rgb(150, 103, 1);
 }
 .container {
@@ -15,27 +14,7 @@ body {
 .header img {
 	padding-right: 20px;
 	display : block;
-    border-bottom: 5px solid black;
     box-sizing: border-box;
-}
-/* smartphone */
-.header > img{
-	width: 100%;
-	height: auto;
-}
-/* tablet */
-@media (min-width: 576px){
-	.header > img {
-		width: 80%;
-		height: auto;
-	}
-}
- /* PC */
-@media (min-width: 992px){
-	.header > img {
-		width: 50%;
-		height: auto;
-	}
 }
 .header h1 {
 	background-color: black;
@@ -70,7 +49,7 @@ body {
 	padding-bottom: 20px;
 	padding-right: 49px;
     box-sizing: border-box;
-	display: inline-block;
+	display: block;
 	background-color: black;
 }
 .experience {
@@ -78,10 +57,9 @@ body {
 }
 .work {
 	text-align: left;
-	float: right;
     padding-left: 20px;
 	padding-top: 20px;
-	padding-bottom: 20px;
+	padding-bottom: 30px;
     box-sizing: border-box;
 	background-color: black;
 }
@@ -93,7 +71,6 @@ body {
 }
 .project h1 {
 	text-align: center;
-	margin-top: 10px;
 	margin-bottom: 10px;
 	padding: 20px;
 	border-bottom: 3px solid black;
@@ -115,7 +92,7 @@ body {
 	padding-bottom: 20px;
 	padding-right: 111.75px;
     box-sizing: border-box;
-	display: inline-block;
+	display: block;
 	background-color: black;
 }
 .testimoni table thead {
